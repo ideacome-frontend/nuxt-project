@@ -1,0 +1,33 @@
+{
+  "name": "nuxt-project",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint": "npm run lint:js"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "nuxt": "^2.14.6"
+  },
+  "devDependencies": {
+    "@ideacome/foundation": "git+http://192.168.1.7/amazing-f2e/ideacome-foundation.git",
+    "@nuxtjs/eslint-config": "^3.1.0",
+    "@nuxtjs/eslint-module": "^2.0.0",
+    "axios": "^0.21.0",
+    "babel-eslint": "^10.1.0",
+    "element-ui": "^2.14.1",
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-nuxt": "^1.0.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "less": "^3.13.0",
+    "less-loader": "^7.1.0",
+    "prettier": "^2.1.2",
+    "vuex": "^3.6.0"
+  }
+}

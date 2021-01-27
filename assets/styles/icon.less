@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 2283309 */
+  src: url('https://at.alicdn.com/t/font_2283309_nuyrohhggmj.eot');
+  src: url('https://at.alicdn.com/t/font_2283309_nuyrohhggmj.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_2283309_nuyrohhggmj.woff2') format('woff2'),
+  url('https://at.alicdn.com/t/font_2283309_nuyrohhggmj.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_2283309_nuyrohhggmj.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_2283309_nuyrohhggmj.svg#iconfont') format('svg');
+}
+.icon {
+  font-family: "iconfont" !important;
+  font-size: 14px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  vertical-align: baseline;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.makeicon(@cls,@cn) {
+  .icon-@{cls}:before {
+    content: @cn;
+  }
+}
+.makeicon(all,'\e6ef');
+.makeicon(man,'\e6f0');
+.makeicon(data,'\e6f9');
+.makeicon(integral,'\e6fa');
